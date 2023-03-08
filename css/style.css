@@ -1,0 +1,175 @@
+
+/** ENCABEZADO */
+
+header {
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    background: #17252A;
+    color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 15px solid #3AAFA9;
+}
+
+#__marco {
+    margin: auto;
+    background: #17252A;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#__perfil {
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #3AAFA9;
+}
+
+#__perfil:hover {
+    border: 4px solid #DEF2F1;
+    padding: 0;
+}
+
+#__encabezado h1 {
+    padding-top: 10px;
+}
+
+/** BARRA DE MENU */
+#__menu {
+    height: auto;
+    align-content: center;
+    background-color: white;
+}
+
+.container-buttons {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    transform: translate(-50%, -50%);
+    min-width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-buttons #__circulo {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+    color: #DEF2F1;
+    background-color: #3AAFA9;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+#__ico {
+    font-size: 50px;
+    line-height: 1.4;
+}
+
+.container-buttons #__circulo:hover {
+    background-color: #17252A;
+    color: white;
+}
+
+/** INFO */
+
+#__info {
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    background-color: #DEF2F1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#__info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+#__info p:hover {
+    font-weight: bold;
+}
+
+#__info:hover {
+    background-color: white;
+}
+
+/** RELLENO */
+
+#__cuerpo {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.accordion-header {
+    --bs-accordion-active-color: #DEF2F1;
+    --bs-accordion-active-bg: #3aafa9;
+}
+
+.accordion-body p {
+    text-align: justify;
+}
+
+#__cuerpo h5:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/** BOTONES */
+
+#__botones {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+#print {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border: 2px solid #17252A;
+    border-radius: 20px;
+}
+
+#print:hover {
+    background-color: #17252A;
+    color: whitesmoke;
+}
+
+/** PIE DE PÁGINA */
+
+#__pie {
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 10px solid #3AAFA9;
+    background: #17252A;
+    overflow: hidden;
+    text-align: center;
+    color: #DEF2F1;
+}
+
+#__col {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}

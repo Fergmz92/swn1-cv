@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico">
+    <link rel="Stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Trabajo N°1 | CV</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid" id="__encabezado">
+            <div class="marco" id="__marco">
+                <img src="https://randomuser.me/api/portraits/men/94.jpg" id="__perfil" alt="foto-perfil">
+            </div>
+            <h1><strong>Gonzalo Martin Perez</strong></h1>
+            <h4>Analista en Sistemas</h4>
+        </div>
+    </header>
+    
+    <div class="row" id="__menu">
+      <div class="col" id="__col"></div>
+      <div class="col-lg-4">
+        <div class="container-buttons">
+          <a href="https://api.whatsapp.com/send/?phone=+5493454499999" target="_blank" id="__circulo" class="one">
+            <span class="material-icons-outlined" id="__ico">phone_iphone</span>
+          </a>
+          <a href="mailto:gonza.perez@gmail.com" id="__circulo" class="two">
+            <span class="material-icons-outlined" id="__ico">email</span>
+          </a>
+          <a href="https://goo.gl/maps/eJzq2jpuQfwa1pnE8" target="_blank" id="__circulo" class="three">
+            <span class="material-icons-outlined" id="__ico">location_on</span>
+          </a>
+        </div>
+      </div>
+      <div class="col" id="__col"></div>
+    </div>
+
+    <div class="row">
+      <div class="col" id="__col"></div>
+      <div class="col-lg-4" id="__info">
+        <div class="col" id="__col1">
+          <p>+5493454499999</p>
+        </div>
+        <div class="col" id="__col2">
+          <p>gonza.perez@gmail.com</p>
+        </div>
+        <div class="col" id="__col3">
+          <p>Paraná, ARG</p>
+        </div>
+      </div>
+      <div class="col" id="__col"></div>
+    </div>
+
+    <div class="row" id="__cuerpo">
+        <div class="col" id="__col"></div>
+        <div class="col-lg-4">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h5>INFORMACIÓN PERSONAL</h5>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p><strong>Analista en Sistemas</strong> con más de 15 años de experiencia en el sector informático.
+                        Actualmente especializado en los sistemas de transferencia de fondos local e internacional.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <h5>FORMACIÓN ACADÉMICA</h5>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <h6><strong>San Francisco Solano</strong> | Escuela Secundaria</h6>
+                      <p>Bachillerato en Humanidades y Ciencias Sociales</p>
+                      <h6><strong>Tecnológica Nacional</strong> | Facultad Regional Rosario</h6>
+                      <p>Analista en Sistemas</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h5>EXPERIENCIA LABORAL</h5>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <h6><strong>Plug and Play</strong> | Reparación de PC</h6>
+                      <h6><strong>Click</strong> | Servicio Técnico Informático</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col" id="__col"></div>
+    </div>
+
+    <div class="container-fluid" id="__botones">
+      <button type="button" id="print">Imprimir CV</button>
+    </div>
+    
+    <footer>
+        <div class="container-fluid" id="__pie">
+            <h6>Trabajo Práctico N°1 | CV | Argentina Programa 4.0</h6>
+            <h6>*Todos los datos utilizados en este documento NO son reales*</h6>
+        </div>
+    </footer>
+
+    <script src="js/funciones.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
